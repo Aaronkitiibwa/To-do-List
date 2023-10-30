@@ -1,0 +1,91 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+ display: flex;
+  background-color: aqua;
+
+  justify-content: center;
+  margin-left: 30%;
+ margin-right: 30%;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-top: 10px;
+border-radius: 20px;
+}
+
+/* body{
+  
+  
+} */
+
+h1{
+  display: flexbox;
+  font-family:'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: 800;
+  color: TEAL;
+  justify-items: center;
+}
+ul li{
+  justify-content: center;
+  padding: 40%, 50%, 40%, 50%
+}
+.editBtn{
+  
+  background-color: brown;
+}
+.input{
+  border-radius: 50rem;
+  box-shadow:turquoise;
+  border: none;
+  padding: 15px;
+ cursor: pointer;
+ margin-bottom: 2rem;
+}
+
+.tasks{
+  border: none;
+  padding: 10px;
+  border-radius: 50rem;
+  background-color: aqua;
+}
+
+h1{
+margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+li:before {
+  /* content: "+"; */
+  margin-right: 4px;
+}
+
+ul li{
+  margin-bottom: 3rem;
+  border-radius: 5rem;
+box-shadow: none;
+}
+
+button{
+  border-radius: 5rem;
+  border:none;
+  padding:10px;
+}
+
+#input{
+  padding: 10px;
+  border-radius: 5rem;
+  box-shadow: none;
+  border: none;
+}
+
+#breakfast{
+  margin-top: 2rem;
+}
