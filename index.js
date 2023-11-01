@@ -40,7 +40,7 @@ function renderitems(dataArr) {
         listItems.appendChild(deleteButton)
         returnedValue.appendChild(listItems)
         deleteButton = document.querySelector("Delete")
-        deleteButton.style.backgroundColor = orange;
+  
 
         EditBtn.addEventListener("click", function (e) {
         

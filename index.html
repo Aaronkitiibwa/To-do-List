@@ -6,30 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My JavaScript To Do list</title>
   <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
 </head>
 
 <body>
   <div class="container">
-     <div class="to-do-list">
-    <h1 ID="head">My To-Do-List</h1>
-    <div>
- 
-    <input id="input"   type="text" value="" placeholder="type your activity here">
-    <button id="tasks">add Tasks</button>
-    <br>
-    <div class="to-do-list1">
-      
+    <div class="to-do-list">
+      <h1 id="head">My To-Do-List</h1>
+      <div class="row-elements">
+        <input id="input" type="text" placeholder="type your activity here">
+        <button onclick="AddTask()">Add Tasks</button>
+      </div>
+        <ul id="my-list">
+          <!-- <li class="selected">Play soccer</li>
+          <li>Play music</li>
+          <li>Attend class</li> -->
+        </ul>
     </div>
-    <!-- <UL id="task-list">
-   <li ><button  id="breakfast">Have breakfast</button></li>
-    <li ><button id="school">Take childre to school</button>
-    
-  </UL> -->
-
-  <script src="index.js"></script>
-
   </div>
-  </div>
+  <script src="script.js"></script>
 
 </body>
 

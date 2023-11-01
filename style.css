@@ -1,20 +1,21 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
- display: flex;
+.container {
+  display: flex;
   background-color: aqua;
-
   justify-content: center;
   margin-left: 30%;
- margin-right: 30%;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-margin-top: 10px;
-border-radius: 20px;
+  margin-right: 30%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 10px;
+  border-radius: 20px;
+  
+
 }
 
 /* body{
@@ -22,70 +23,74 @@ border-radius: 20px;
   
 } */
 
-h1{
-  display: flexbox;
-  font-family:'Courier New', Courier, monospace;
+h1 {
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   font-weight: 800;
   color: TEAL;
   justify-items: center;
 }
-ul li{
-  justify-content: center;
-  padding: 40%, 50%, 40%, 50%
+.input-button{
+justify-content: space-between;
+display: flex;
 }
-.editBtn{
-  
-  background-color: brown;
-}
-.input{
-  border-radius: 50rem;
-  box-shadow:turquoise;
+
+#input {
+  border-radius: 20rem;
+  box-shadow: turquoise;
   border: none;
   padding: 15px;
- cursor: pointer;
- margin-bottom: 2rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+
 }
 
-.tasks{
-  border: none;
-  padding: 10px;
-  border-radius: 50rem;
-  background-color: aqua;
-}
-
-h1{
-margin-bottom: 5px;
-}
-
-ul {
-  list-style: none;
-}
-
-li:before {
-  /* content: "+"; */
-  margin-right: 4px;
+#my-list{
+  display: flex;
+  flex-direction: column;
 }
 
 ul li{
-  margin-bottom: 3rem;
-  border-radius: 5rem;
-box-shadow: none;
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+
+}
+ul li::before{
+  content:url();
+  position:absolute;
+  height: 28px;
+  width: 28px;
+  background-size: cover;
+  text-decoration: line-through;
+ 
+}
+ul li.checked{
+  text-decoration: line-through;
+}
+
+ul li span{
+  position:absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
 }
 
 button{
-  border-radius: 5rem;
-  border:none;
-  padding:10px;
-}
-
-#input{
-  padding: 10px;
-  border-radius: 5rem;
-  box-shadow: none;
+  margin-top: 6px;
+  padding: 0.5rem;
+  border-radius: 7px;
+  background-color:orange;
   border: none;
+  margin-left: 8rem;
+  
 }
 
-#breakfast{
-  margin-top: 2rem;
-}
